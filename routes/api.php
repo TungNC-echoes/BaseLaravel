@@ -21,3 +21,6 @@ Route::middleware('multiauth:api')->group(function () {
     Route::post('logout','AuthController@logout');
 
 });
+Route::get('notes', 'NotesController@index');
+Route::post('notes', 'NotesController@store');
+Route::get('pdf', 'NotesController@pdf');

@@ -9,13 +9,16 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
+        "barryvdh/laravel-dompdf": "^0.8.6",
         "bitfumes/laravel-multiauth": "^4.1",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "^7.0",
-        "laravel/passport": "^9.3",
-        "laravel/tinker": "^2.0"
+        "laravel/passport": "^8.0",
+        "laravel/tinker": "^2.0",
+        "smartins/passport-multiauth": "^7.0",
+        "spatie/laravel-permission": "^3.13"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
